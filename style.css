@@ -1,0 +1,407 @@
+body, html {
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Abel', sans-serif;
+}
+
+@font-face {
+  font-family: 'BlackCasper';
+  src: url(BlackCasper.ttf);
+}
+
+@font-face {
+  font-family: 'shoplift';
+  src: url(shoplift.ttf);
+}
+
+h1 {
+  font-family: 'BlackCasper';
+  font-size: 18vmin;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  background-image: url(img1.jpg);
+  background-size: 165vmin 105vmin;
+  padding-bottom: 41vmin;
+}
+
+.headertext{
+  margin-top: -2vmin;
+  padding-left: 1vmin;
+  text-align: center;
+}
+
+.backgrdinfo {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-image: url(background1.jpg);
+  background-position: center;
+  background-attachment: scroll;
+  background-size: cover;
+  padding-bottom: 7vmin;
+}
+
+
+.politics {
+  display: flex;
+  flex-direction: column;
+  padding-left: 10vmin;
+  padding-right: 10vmin;
+  margin-top: 15vmin;
+  margin-bottom: 10vmin;
+  margin-left: 10vmin;
+  margin-right: 10vmin;
+  background-color: #242323;
+  color: #ffffff;
+}
+
+.politics p {
+  font-size: 2.35vmin;
+  margin-top: -4vmin;
+  font-weight: bold;
+  padding-bottom: 5vmin;
+}
+
+h2 {
+  font-family: 'shoplift';
+  font-size: 9vmin;
+}
+
+h3 {
+  font-family: 'shoplift';
+  font-size: 6vmin;
+}
+
+
+.section2 {
+  background-image: url(background2.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-left: 5vmin;
+  padding-right: 5vmin;
+}
+
+.morebackgrnd {
+  font-size: 3vmin;
+  font-weight: bold;
+  padding-left: 6vmin;
+  padding-right: 25vmin;
+  margin-top: -7vmin;
+}
+
+.tweetimg {
+  padding-top: 12vmin;
+  padding-bottom: 12vmin;
+  padding-right: 6vmin;
+}
+
+.section3 {
+  background-image: url(background6.jpg);
+  background-position: bottom;
+  background-attachment: scroll;
+  background-size: cover;
+  display: flex;
+  align-content: center;
+  padding: 10vmin;
+  padding-top: 2vmin;
+  padding-bottom: 25vmin;
+  background-color: #FFF0E4;
+  font-size: 3vmin;
+  padding-left: 10vmin;
+  padding-right: 10vmin;
+  font-weight: bold;
+  margin-top: -3vmin;
+}
+
+.facts {
+  margin-left: 30vmin;
+  margin-right: 10vmin;
+}
+
+.section4 {
+  padding-left: 10vmin;
+  padding-right: 10vmin;
+  padding-top: 3vmin;
+  padding-bottom: 4vmin;
+  background-color: #58473D;
+  margin-bottom: -14vmin;
+  margin-left: 40vmin;
+  margin-top: 7vmin;
+  color: #eeeeee;
+  font-size: 2.5vmin;
+}
+
+.section4 p{
+  font-size: 2.8vmin;
+}
+
+.section5 {
+  padding: 10vmin;
+  padding-top: 3vmin;
+  padding-bottom: 3vmin;
+  background-image: url(background3.jpg);
+  background-size: cover;
+  background-position: bottom;
+  background-attachment: scroll;
+}
+
+.fakenews {
+  margin-right: 80vmin;
+  font-size: 2.5vmin;
+  font-weight: bold;
+}
+
+.fakenews p {
+  font-size: 2.8vmin;
+}
+
+.fakenews2 p {
+  font-size: 2.8vmin;
+}
+
+.fakenews2 {
+  margin-left: 75vmin;
+  margin-right: 4vmin;
+  margin-bottom: 10vmin;
+  font-weight: bold;
+  font-size: 2.5vmin;
+  background-color: #503D58;
+  color: #eeeeee;
+  padding-left: 8vmin;
+  padding-right: 8vmin;
+  padding-top: 1vmin;
+  padding-bottom: 4vmin;
+}
+
+.stickers {
+  margin-top: -85vmin;
+  margin-left: 30vmin;
+  margin-bottom: 6vmin;
+}
+
+
+.section6 {
+  background-image: url(background6.png);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-left: 10vmin;
+  padding-right: 10vmin;
+  padding-top: 2vmin;
+  padding-bottom: 12vmin;
+}
+
+.atlas{
+  margin-right: 30vmin;
+  font-size: 2.5vmin;
+  font-weight: bold;
+
+}
+
+.atlas p {
+  font-size: 2.8vmin;
+}
+
+.atlastweet {
+  margin-right: 15vmin;
+  margin-top: 10vmin;
+}
+
+.footer {
+  background-color: #000000;
+  color: #eeeeee;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: right;
+  margin-top: -2.9vmin;
+  margin-bottom: -2.85vmin;
+}
+
+.name {
+  margin-right: 3vmin;
+  margin-top: 1vmin;
+}
+
+@media screen and (max-width: 1024px) {
+  h1 {
+    font-size: 13vmin;
+  }
+
+  h2 {
+    font-size: 7.5vmin;
+  }
+
+  h3 {
+    font-size: 5vmin;
+  }
+
+  .header {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background-image: url(img1.jpg);
+    background-size: cover;
+    padding-bottom: 34vmin;
+  }
+
+  .headertext {
+    margin-left: -1vmin;
+
+  }
+
+  .section2 {
+    margin-top: -8vmin;
+    padding-top: 8vmin;
+    padding-left: 10vmin;
+    padding-right: 0px;
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    background-size: cover;
+  }
+
+  .morebackgrnd {
+    padding-left: 10vmin;
+    margin-left: -7vmin;
+    background-size: 100%;
+  }
+
+  .morebackgrnd p {
+    font-size: 2vmin;
+  }
+
+  .tweetimg {
+    padding-bottom: 8vmin;
+    margin-top: -10vmin;
+    margin-left: 25vmin;
+
+  }
+
+  .tweetimg img {
+    height: 100%;
+    width: 100%;
+  }
+
+  .backgrdinfo {
+    display: flex;
+    flex-direction: column;
+    padding: 8vmin;
+    padding-right: 13vmin;
+  }
+
+  .politics {
+    margin-left:10vmin;
+  }
+
+  .politics p {
+    font-size: 3vmin;
+  }
+
+
+  .section5 {
+    padding-left: 8vmin;
+    padding-right: 8vmin;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+  }
+
+  .fakenews {
+    margin-right: -2vmin;
+  }
+
+  .fakenews2 {
+    margin-left: -1vmin;
+    margin-right: -2vmin;
+    margin-top: 8vmin;
+  }
+
+  .fakenews p {
+    font-size: 2vmin;
+  }
+
+  .fakenews2 p {
+    font-size: 2vmin;
+  }
+
+  .section6 {
+    padding: 8vmin;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .atlas {
+    margin-right: 0vmin;
+    margin-top: -3vmin;
+    background-size: 100%;
+  }
+
+  .atlastweet {
+    margin-bottom: 5vmin;
+    margin-left: 15vmin;
+  }
+
+  .atlas p {
+    font-size: 2vmin;
+  }
+
+  .section3 {
+    display: flex;
+    flex-direction: column;
+  }
+  .section4 {
+    margin-left: -10vmin;
+  }
+
+  .posters img{
+    height: 100%;
+    width: 100%;
+  }
+
+  .section3 {
+    padding: 9vmin;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .facts {
+    margin-top: -6vmin;
+    margin-left: -2vmin;
+  }
+
+  .facts p {
+    font-size: 2vmin;
+  }
+
+  .section4 {
+    margin-left: 6vmin;
+    margin-right: -4vmin;
+    margin-top: 5vmin;
+    margin-bottom: -0.2vmin;
+  }
+
+  .section4 p {
+    font-size: 2vmin;
+  }
+
+  .footer {
+    margin-top: -3.7vmin;
+    margin-bottom: -3.7vmin;
+    font-size: 2.5vmin;
+  }
+
+}
