@@ -1,11 +1,11 @@
-ScrollReveal().reveal('.morebackgrnd', { delay: 500, reset: true  });
-ScrollReveal().reveal('.facts', { delay: 800, reset: true  });
-ScrollReveal().reveal('.politics', { delay: 500, reset: true  });
-ScrollReveal().reveal('.fakenews', { delay: 500, reset: true  });
-ScrollReveal().reveal('.atlas', { delay: 500, reset: true  });
-ScrollReveal().reveal('.tweetimg', { delay: 800, reset: true  });
-ScrollReveal().reveal('.atlastweet', { delay: 800, reset: true  });
-ScrollReveal().reveal('.posters', { delay: 800, reset: true  });
+ScrollReveal().reveal('.morebackgrnd', { delay: 600, reset: true  });
+ScrollReveal().reveal('.facts', { delay: 900, reset: true  });
+ScrollReveal().reveal('.politics', { delay: 600, reset: true  });
+ScrollReveal().reveal('.fakenews', { delay: 600, reset: true  });
+ScrollReveal().reveal('.atlas', { delay: 600, reset: true  });
+ScrollReveal().reveal('.tweetimg', { delay: 900, reset: true  });
+ScrollReveal().reveal('.atlastweet', { delay: 900, reset: true  });
+ScrollReveal().reveal('.posters', { delay: 900, reset: true  });
 
 
 window.sr = ScrollReveal({ reset: true });
