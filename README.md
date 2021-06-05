@@ -8,6 +8,7 @@ controversial in the U.S.
 
 Project is created with:
 * HTML/CSS
+* Javascript
 
 # Website
 
